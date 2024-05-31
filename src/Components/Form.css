@@ -1,0 +1,130 @@
+.both__container {
+    display: flex;
+}
+
+.form__container {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+input {
+    padding: 0;
+    margin: 0;
+    height: 20px;
+    width: 50px;
+    text-align: center;
+    border-radius: 10px;
+    border:none;
+}
+
+
+.Team__1 {
+    height: 20px;
+    width: 172px;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 35px;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+.input__div {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 35px;
+
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+/* input[type=number] {
+  -moz-appearance: textfield;
+} */
+
+.buttons {
+    display: flex;
+    width: 180px;
+    justify-content: space-evenly;
+    margin: 20px;
+    height: 25px;
+}
+
+.for_against_total {
+    display: flex;
+    width: 300px;
+    margin-top: -50px;
+}
+
+.home_away {
+    margin-right: 20px;
+    margin-top: 16px;
+}
+
+.output_container {
+    margin-top: 100px;
+    display: flex;
+}
+
+
+.throwin {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.calculate {
+    width: 70px;
+    height: 23px;
+    margin-bottom: 15px;
+    margin-top : 15px;
+}
+
+.reset {
+    width: 70px;
+    height: 23px;
+}
+
+button {
+    border-radius: 50px;
+    border: none;
+    height: 23px;
+}
+
+button {
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #666;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px #999;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #696969
+}
+
+button:active {
+    background-color: #696969;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
