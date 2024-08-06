@@ -61,7 +61,7 @@ const Input = (props) => {
     <div className='input__div'>
       <input
         type="radio"
-        name={`home-away-${props.game}`}
+        name={`home-away-${props.game}-${props.team}`}
         value="home"
         onChange={homeOrAway}
         checked={home_away === 'home'}
@@ -81,7 +81,7 @@ const Input = (props) => {
       />
       <input
         type="radio"
-        name={`home-away-${props.game}`}
+        name={`home-away-${props.game}-${props.team}`}
         value="away"
         onChange={homeOrAway}
         checked={home_away === 'away'}

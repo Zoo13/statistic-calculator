@@ -68,7 +68,7 @@ const Form = () => {
                     <button onClick={minusGame}> - Game</button>
                 </div>
                 {Array.from({ length: totalGames }).map((_, index) => (
-                    <Input key={index} game={index + 1} takeStats={takeStats} resetKey={resetKey} />
+                    <Input team={team} key={index} game={index + 1} takeStats={takeStats} resetKey={resetKey} />
                 ))}
                 <button type='submit' onClick={calculate} className='calculate'>Calculate </button>
                 <button className='reset' onClick={reset}>Reset </button>
